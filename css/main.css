@@ -42,36 +42,44 @@ body{
     transition: width .5s ease;
 }
 .countent-3 .git-skill{
-    width: 120%;
+    width: 240%;
     background-color: green;
     transition: width .5s ease;
 }
 .countent-3 .ht-skill{
-    width: 90%;
+    width: 180%;
     background-color: yellowgreen;
     transition: width .5s ease;
 }
 .countent-3 .cs-skill{
-    width: 60%;
+    width: 90%;
     background-color: royalblue;
     transition: width .5s ease;
 }
 .countent-3 .js-skill{
-    width: 10%;
+    width: 20%;
     background-color: red;
     transition: width .5s ease;
 }
 .countent-3 .git-skill:hover{
-    width: 240%;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
 }
 .countent-3 .ht-skill:hover{
-    width: 180%;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
 }
 .countent-3 .cs-skill:hover{
-    width: 90%;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
 }
 .countent-3 .js-skill:hover{
-    width: 20%;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
 }
 
 @media screen and (max-width:400px) {
