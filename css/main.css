@@ -121,6 +121,26 @@ body {
     -o-border-radius: 5px;
     padding: 2px;
 }
+.p-d ul li {
+    color: blue;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all 0.5 ease ease-out ;
+    -webkit-transition: all 0.5 ease ease-out ;
+    -moz-transition: all 0.5 ease ease-out ;
+    -ms-transition: all 0.5 ease ease-out ;
+    -o-transition: all 0.5 ease ease-out ;
+}
+.p-d ul li :hover{
+    color: black;
+    background-color: tan;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 2px;
+}
 .countent-7 {
     float: right;
     margin: 0 auto;
