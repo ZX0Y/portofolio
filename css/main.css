@@ -55,7 +55,7 @@ section {
 
 .main img {
     height: 450px;
-    width: 400px;
+    width: auto;
     border: solid 2px black;
     margin-top: -150px;
     margin-left: 60px;
