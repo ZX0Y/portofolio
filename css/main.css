@@ -9,6 +9,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+        /* header START */
+
 header {
     background-color: gray;
     color: white;
@@ -22,7 +24,7 @@ header {
     align-items: center;
 }
 
-.logo{
+.logo {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -42,9 +44,13 @@ header {
     color: #fdc8c8;
 }
 
+        /* header END */
+
 section {
     padding: 100px 200px;
 }
+
+        /* main page START */
 
 .main {
     width: 100%;
@@ -141,6 +147,10 @@ section {
     margin: 0 5px;
 }
 
+        /* main page END */
+
+        /* skills page START */
+
 .title {
     display: flex;
     justify-content: center;
@@ -158,7 +168,6 @@ section {
 }
 
 .content {
-    /* background-color: #fff; */
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
     border-radius: 10px;
@@ -205,6 +214,10 @@ section {
     font-weight: 700;
     margin: 10px;
 }
+
+        /* skills page END */
+
+        /* projects page START */
 
 .projects {
     background-color: #000016;
@@ -280,6 +293,10 @@ section {
     color: #601cfc;
 }
 
+        /* projects page END */
+
+        /* contact page START */
+
 .contact .icon-mail {
     color: #3a6cf4;
     font-size: 4.5em;
@@ -290,9 +307,15 @@ section {
     color: #000;
 }
 
-.contact .info p {
+.contact .info a {
     font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
 }
+
+        /* contact page END */
+
+        /* footer START */
 
 .footer {
     background-color: gray;
@@ -317,3 +340,5 @@ section {
     color: white;
     margin-right: 10px;
 }
+
+        /* footer START */
