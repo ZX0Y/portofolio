@@ -20,10 +20,10 @@
                 <a href="#" class="logo">Yousef-web</a>
             <nav class="nav-1">
                 <!-- header BUTTONS -->
-                <a href="#my-skills">Skills</a>
-                <a href="#my-project">Project</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
+                <a href="#my-skills" title="Let's see my skills">Skills</a>
+                <a href="#my-project" title="Let's see my porjects">Project</a>
+                <a href="#experience" title="Let's see where I worked">Experience</a>
+                <a href="#contact" title="You should call me, If you need me.">Contact</a>
             </nav>
         </header>
         <!-- header END -->
@@ -31,13 +31,12 @@
         <!-- main page START -->
         <section class="main">
             <div class="main-div">
-                <img src="./img/me.jpg" alt="Yousef Alsultan Photo">
+                <img src="./img/me.jpg" alt="Yousef Alsultan Photo" title="My picture">
                 <h2>I'm Yousef Alsultan <br> <span>Front-End Web Developer</span> </h2>
                 <h3>I am passionate about building beautiful, user friendly and responsive websites.</h3>
                 <a href="#my-project" class="main-btn">View my work</a>
                     <div class="social-icons">
-                        <a href="https://github.com/yousef1alsultan"><i class="fab fa-github"></i></a>
-                        <a href="https://t.me/catalog1yousefalsultan"><i class="fab fa-telegram"></i></a>
+                        <a href="https://github.com/yousef1alsultan" title="My github account"><i class="fab fa-github"></i></a>
                     </div>
             </div>
         </section>
@@ -81,6 +80,7 @@
                         <strong class="project-title">
                             <span>Wide Vision website</span>
                             <a href="https://yousef1alsultan.github.io/WideVision/" class="more-details">More details</a>
+                            <a href="https://github.com/yousef1alsultan/WideVision" class="project-code">Code</a>
                         </strong>
                     </div>
                 </div>
@@ -94,6 +94,7 @@
                         <strong class="project-title">
                             <span>My old portofolio</span>
                             <a href="https://yousef1alsultan.github.io/yousef-alsultan.test-website/" class="more-details">More details</a>
+                            <a href="https://github.com/yousef1alsultan/yousef-alsultan.test-website" class="project-code">Code</a>
                         </strong>
                     </div>
                 </div>
@@ -102,11 +103,12 @@
                     <div class="project-img">
                         <img src="./img/yousef1alsultan-github-io-programming-vs-design.png" alt="">
                     </div>
-                    <div class="project-info">
+                    <div class="project-info programming-project">
                         <p class="project-category">HTML & CSS</p>
                         <strong class="project-title">
                             <span>Programming vs Design</span>
                             <a href="https://yousef1alsultan.github.io/programming-vs-design/" class="more-details">More details</a>
+                            <a href="https://github.com/yousef1alsultan/programming-vs-design" class="project-code">Code</a>
                         </strong>
                     </div>
                 </div>
@@ -120,6 +122,7 @@
                         <strong class="project-title">
                             <span>Ferb CSS drawing</span>
                             <a href="https://yousef1alsultan.github.io/freb/" class="more-details">More details</a>
+                            <a href="https://github.com/yousef1alsultan/freb" class="project-code">Code</a>
                         </strong>
                     </div>
                 </div>
@@ -133,6 +136,7 @@
                         <strong class="project-title">
                             <span>Mustache CSS drawing</span>
                             <a href="https://yousef1alsultan.github.io/shanab/" class="more-details">More details</a>
+                            <a href="https://github.com/yousef1alsultan/shanab" class="project-code">Code</a>
                         </strong>
                     </div>
                 </div>
@@ -146,6 +150,7 @@
                         <strong class="project-title">
                             <span>Spianner with CSS</span>
                             <a href="https://yousef1alsultan.github.io/spianner/" class="more-details">More details</a>
+                            <a href="https://github.com/yousef1alsultan/spianner" class="project-code">Code</a>
                         </strong>
                     </div>
                 </div>
@@ -159,6 +164,7 @@
                         <strong class="project-title">
                             <span>Pokeball CSS drawing</span>
                             <a href="https://yousef1alsultan.github.io/pokeball/" class="more-details">More details</a>
+                            <a href="https://github.com/yousef1alsultan/pokeball" class="project-code">Code</a>
                         </strong>
                     </div>
                 </div>
@@ -201,7 +207,7 @@
         <!-- contact page START -->
         <section class="cards contact" id="contact">
             <h2 class="title">Let's work togethr</h2>
-            <div class="content">
+            <div class="content"  title="My E-mail">
                 <div class="icon-mail">
                     <i class="fas fa-envelope"></i>
                 </div>
@@ -210,7 +216,34 @@
                     <a href="mailto:business4yousefalsultan@gmail.com">business4yousefalsultan@gmail.com</a>
                 </div>
             </div>
+
+            <div class="form-container">
+            <form action="https://usebasin.com/f/c2614671b945" method="POST" enctype="multipart/form-data" id="form" class="contact-form">
+                <label for="name" class="name">Name</label>
+                <input type="text" name="name"/>
+                <label for="email">Email</label>
+                <input type="email" name="email" required class="email"/>
+                <label for="message">Message</label>
+                <textarea name="message"></textarea>
+                <label for="file-upload">File Upload</label>
+                <input type="file" name="file-upload"/>
+                <button type="submit" value="Submit" class="submit-btn">Send</button>
+            </form>
+            </div>
         </section>
+        <script type="text/javascript">
+            function configureAhoy() {
+              ahoy.configure({
+                visitsUrl: "https://usebasin.com/ahoy/visits",
+                eventsUrl: "https://usebasin.com/ahoy/events",
+                page: "398d51ab4651" /* Use your form id here */
+              });
+              ahoy.trackView();
+              ahoy.trackSubmits();
+            }
+          </script>
+          <script src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.4/dist/ahoy.min.js" async defer onload="configureAhoy()"></script>
+
         <!-- contact page END -->
 
         <!-- footer START -->
@@ -218,8 +251,7 @@
             <p class="footer-title">Copyright &copy; <span>Yousef Alsultan</span> </p>
             <div class="social-icons">
                 <br>
-                <a href="https://github.com/yousef1alsultan"><i class="fab fa-github"></i></a>
-                <a href="https://t.me/catalog1yousefalsultan"><i class="fab fa-telegram"></i></a>
+                <a href="https://github.com/yousef1alsultan" title="My github account"><i class="fab fa-github"></i></a>
             </div>
         </footer>
         <!-- footer END -->
